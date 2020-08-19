@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: rgb(156, 86, 186) ;
+}
+img{
+    height: 225px;
+    width: 375px;
+}
+
+.img-hor {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.heading {
+    justify-content: center;
+}
